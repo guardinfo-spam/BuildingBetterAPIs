@@ -1,0 +1,19 @@
+﻿<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+
+<script src="~/Scripts/AngularApp/Core/app.js"></script>
+<script src="~/Scripts/AngularApp/Core/dataFactory.js"></script>
+<script src="~/Scripts/AngularApp/Controllers/appController.js"></script>
+
+<div ng-app="restApiApp" ng-controller="appCtrl" class="container-fluid">    
+    <div class="row">
+        <div class="col-md-4">
+            First name : {{ entity.FirstName}}
+        </div>
+        <div class="col-md-4">
+            Last name : {{ entity.LastName}}
+        </div>
+        <div class="col-md-4">
+            Id : {{ entity.EntityID}}
+        </div>
+    </div>
+</div>
